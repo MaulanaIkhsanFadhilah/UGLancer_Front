@@ -1,10 +1,10 @@
 <div>
-    <nav class=" bg-white dark:bg-gray-900 w-full border-b border-gray-200 dark:border-gray-600">
+    <nav class=" bg-white dark:bg-gray-900 fixed w-full shadow-sm">
         <div class="flex max-w-screen-2xl flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ URL('assets/Logo.png') }}" class="h-8" alt="UGLancer Logo">
             </a>
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse pl-8">
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse pl-8 hover:text-gray-400">
                 <button type="button" data-modal-target="sign-in-modal" data-modal-toggle="sign-in-modal"
                     class="mr-6 font-semibold">
                     Sign in</button>
@@ -34,52 +34,51 @@
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-800 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-800">About</a>
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-800">About</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-800 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-800">Services</a>
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-800">Services</a>
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-800 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-800">Contact</a>
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-400 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-800 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-800">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <nav class="bg-purple-800 w-full border-b border-gray-200 dark:border-gray-600">
-        <div class="items-center hidden justify-between w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <div class="items-center hidden justify-between w-full md:flex md:w-auto md:order-1 bg-purple-800"
+            id="navbar-sticky">
             <ul
                 class="flex flex-col w-4/5 md:mx-auto font-medium text-sm rtl:space-x-reverse md:flex-row md:bg-transparent">
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-200 md:text-center"
+                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center"
                         aria-current="page">Category 1</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-200 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         2</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-200 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         3</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-200 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         4</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-200 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         5</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-200 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         6</a>
                 </li>
             </ul>
