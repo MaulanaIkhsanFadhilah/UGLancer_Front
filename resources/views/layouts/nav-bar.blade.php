@@ -47,38 +47,38 @@
                 </ul>
             </div>
         </div>
-        <div class="items-center hidden justify-between w-full md:flex md:w-auto md:order-1 bg-opacity-[60%] bg-purple-800"
+        <div class="items-center hidden w-full justify-center md:flex md:w-auto md:order-1 bg-opacity-[60%] bg-purple-800"
             id="navbar-sticky">
             <ul
-                class="flex flex-col w-4/5 md:mx-auto font-normal text-sm rtl:space-x-reverse md:flex-row md:bg-transparent">
-                <li class="mx-auto">
+                class="flex flex-col justify-evenly w-4/5 md:px-0 font-normal text-sm rtl:space-x-reverse md:flex-row md:bg-transparent">
+                <li class="w-full">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center"
-                        aria-current="page">Category 1</a>
+                        class="block py-2 px-auto md:hover:border-b-2 md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        1</a>
                 </li>
-                <li class="mx-auto">
+                <li class="w-full">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:hover:border-b-2 md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         2</a>
                 </li>
-                <li class="mx-auto">
+                <li class="w-full">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:hover:border-b-2 md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         3</a>
                 </li>
-                <li class="mx-auto">
+                <li class="w-full">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:hover:border-b-2 md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         4</a>
                 </li>
-                <li class="mx-auto">
+                <li class="w-full">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:hover:border-b-2 md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         5</a>
                 </li>
-                <li class="mx-auto">
+                <li class="w-full">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:hover:border-b-2 md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         6</a>
                 </li>
             </ul>
