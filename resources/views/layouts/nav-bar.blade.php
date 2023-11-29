@@ -1,6 +1,6 @@
 <div>
-    <nav class=" bg-white dark:bg-gray-900 fixed w-full shadow-sm">
-        <div class="flex max-w-screen-2xl flex-wrap items-center justify-between mx-auto p-4">
+    <nav class=" bg-transparent dark:bg-gray-900 fixed w-full shadow-md">
+        <div class="flex flex-wrap items-center justify-between mx-auto px-[5%] py-4 w-full bg-white">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ URL('assets/Logo.png') }}" class="h-8" alt="UGLancer Logo">
             </a>
@@ -47,38 +47,38 @@
                 </ul>
             </div>
         </div>
-        <div class="items-center hidden justify-between w-full md:flex md:w-auto md:order-1 bg-purple-800"
+        <div class="items-center hidden justify-between w-full md:flex md:w-auto md:order-1 bg-opacity-[60%] bg-purple-800"
             id="navbar-sticky">
             <ul
-                class="flex flex-col w-4/5 md:mx-auto font-medium text-sm rtl:space-x-reverse md:flex-row md:bg-transparent">
+                class="flex flex-col w-4/5 md:mx-auto font-normal text-sm rtl:space-x-reverse md:flex-row md:bg-transparent">
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center"
+                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center"
                         aria-current="page">Category 1</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         2</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         3</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         4</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         5</a>
                 </li>
                 <li class="mx-auto">
                     <a href="#"
-                        class="block py-2 px-auto md:bg-transparent md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
+                        class="block py-2 px-auto md:bg-transparent md:hover:font-semibold md:hover:text-gray-100 md:text-gray-300 md:text-center">Category
                         6</a>
                 </li>
             </ul>
