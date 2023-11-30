@@ -1,5 +1,5 @@
 <div>
-    <nav class=" bg-transparent dark:bg-gray-900 fixed w-full shadow-md z-50">
+    <nav class=" bg-transparent dark:bg-gray-900 fixed w-full shadow-md z-40">
         <div class="flex flex-wrap items-center justify-between mx-auto px-[5%] py-4 w-full bg-white">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ URL('assets/Logo.png') }}" class="h-8" alt="UGLancer Logo">
