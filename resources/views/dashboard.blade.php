@@ -19,7 +19,7 @@
         class="pt-28 bg-gradient-to-r from-fuchsia-800 via-purple-900 to-blue-800 focus:ring-1 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
         <div class="flex justify-between">
             <div class="my-auto mx-10">
-                <h1 class="font-serif-georgia text-4xl text-white font-bold">Free to create, Free to work <br> Free to
+                <h1 class="font-['roboto'] text-4xl text-white font-bold">Free to create, Free to work <br> Free to
                     succeed
                 </h1>
                 <div class="mt-8 w-full flex">
@@ -49,11 +49,46 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
             <img src="{{ URL('assets/person.png') }}" alt="Person" class="flex">
         </div>
     </section>
+
+    <div class="mt-20">
+        <div class="flex justify-center">
+            <h1 class="font-extrabold font-['georgia'] text-2xl text-gray-900">OUR SERVICES</h1>
+        </div>
+        <div class="flex justify-center mt-8">
+            <div class="mx-2 hover:opacity-90">
+                <a href="#">
+                    <h4 class="absolute z-0 text-white p-4">
+                        <small class="font-semibold">Build your brand</small><br>
+                        <span class="font-bold text-2xl">Logo Design</span>
+                    </h4>
+                    <img src="{{ URL('assets/carousel-1.png') }}" alt="Logo Design" class="rounded-md">
+                </a>
+            </div>
+            <div class="mx-2 hover:opacity-90">
+                <a href="#">
+                    <h4 class="absolute z-0 text-white p-4">
+                        <small class="font-semibold">Build your brand</small><br>
+                        <span class="font-bold text-2xl">Logo Design</span>
+                    </h4>
+                    <img src="{{ URL('assets/carousel-1.png') }}" alt="Logo Design" class="rounded-md">
+                </a>
+            </div>
+            <div class="mx-2 hover:opacity-90">
+                <a href="#">
+                    <h4 class="absolute z-0 text-white p-4">
+                        <small class="font-semibold">Build your brand</small><br>
+                        <span class="font-bold text-2xl">Logo Design</span>
+                    </h4>
+                    <img src="{{ URL('assets/carousel-1.png') }}" alt="Logo Design" class="rounded-md">
+                </a>
+            </div>
+
+        </div>
+    </div>
 
 
     <script type="text/javascript" src="../path/to/flowbite/dist/flowbite.min.js"></script>

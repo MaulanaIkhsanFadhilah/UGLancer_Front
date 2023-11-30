@@ -1,12 +1,12 @@
 <div>
-    <nav class=" bg-transparent dark:bg-gray-900 fixed w-full shadow-md">
+    <nav class=" bg-transparent dark:bg-gray-900 fixed w-full shadow-md z-50">
         <div class="flex flex-wrap items-center justify-between mx-auto px-[5%] py-4 w-full bg-white">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ URL('assets/Logo.png') }}" class="h-8" alt="UGLancer Logo">
             </a>
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse pl-8 hover:text-gray-400">
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse pl-8">
                 <button type="button" data-modal-target="sign-in-modal" data-modal-toggle="sign-in-modal"
-                    class="mr-6 font-semibold">
+                    class="mr-6 font-semibold text-gray-900 hover:text-gray-400">
                     Sign in</button>
                 <button type="button" data-modal-target="sign-up-modal" data-modal-toggle="sign-up-modal"
                     class="text-white
