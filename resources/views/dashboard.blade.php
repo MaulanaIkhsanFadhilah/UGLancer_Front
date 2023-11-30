@@ -17,7 +17,7 @@
 
     <section
         class="pt-28 bg-gradient-to-r from-fuchsia-800 via-purple-900 to-blue-800 focus:ring-1 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-        <div class="flex justify-between">
+        <div class="flex justify-between max-w-screen-xl mx-auto">
             <div class="my-auto mx-10">
                 <h1 class="font-['roboto'] text-4xl text-white font-bold">Free to create, Free to work <br> Free to
                     succeed
@@ -90,6 +90,45 @@
         </div>
     </div>
 
+    <div class="mt-20 p-12 bg-purple-50 text-gray-900">
+        <div class="flex w-full mx-auto max-w-screen-xl">
+            <div class="w-1/2 p-4">
+                <img src="{{ URL('assets/loyality.png') }}" alt="Loyality" class="rounded-md">
+            </div>
+            <div class="w-1/2 p-4">
+                <h4 class="text-3xl font-bold mb-8">The best part? It's all-inclusive</h4>
+                <div class="font-semibold text-gray-500 my-4">
+                    <h5 class="flex mb-2 text-lg font-bold text-gray-800">
+                        <img src="{{ URL('assets/loyality-logo.png') }}" alt="Loyality-logo" class="h-[1.75rem] mr-2">
+                        Adhere to your budget.
+                    </h5>
+                    Find suitable services for any budget with transparent project-based pricing, eliminating hourly
+                    rates.
+                </div>
+                <div class="font-semibold text-gray-500 my-4">
+                    <h5 class="flex mb-2 text-lg font-bold  text-gray-800">
+                        <img src="{{ URL('assets/loyality-logo.png') }}" alt="Loyality-logo" class="h-[1.75rem] mr-2">
+                        Achieve quality results swiftly.
+                    </h5>
+                    Delegate your project to a skilled freelancer within minutes, ensuring enduring outcomes.
+                </div>
+                <div class="font-semibold text-gray-500 my-4">
+                    <h5 class="flex mb-2 text-lg font-bold  text-gray-800">
+                        <img src="{{ URL('assets/loyality-logo.png') }}" alt="Loyality-logo" class="h-[1.75rem] mr-2">
+                        Pay when satisfied.
+                    </h5>
+                    Upfront quotes mean no surprises. Payments are only released upon your approval.
+                </div>
+                <div class="font-semibold text-gray-500 my-4">
+                    <h5 class="flex mb-2 text-lg font-bold  text-gray-800">
+                        <img src="{{ URL('assets/loyality-logo.png') }}" alt="Loyality-logo" class="h-[1.75rem] mr-2">
+                        Achieve quality results swiftly.
+                    </h5>
+                    Our round-the-clock support team is available to assist anytime, anywhere.
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>

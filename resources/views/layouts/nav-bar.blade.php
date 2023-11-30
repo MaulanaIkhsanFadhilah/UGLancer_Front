@@ -47,7 +47,7 @@
                 </ul>
             </div>
         </div>
-        <div class="items-center hidden w-full justify-center md:flex md:w-auto md:order-1 bg-opacity-[60%] bg-purple-800"
+        <div class="items-center hidden w-full justify-center md:flex md:w-auto md:order-1 bg-opacity-[60%] hover:bg-opacity-[80%] bg-purple-800"
             id="navbar-sticky">
             <ul
                 class="flex flex-col justify-evenly w-4/5 md:px-0 font-normal text-sm rtl:space-x-reverse md:flex-row md:bg-transparent">
