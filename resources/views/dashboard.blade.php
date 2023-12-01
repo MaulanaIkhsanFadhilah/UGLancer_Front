@@ -130,6 +130,48 @@
         </div>
     </div>
 
+    <div class="max-w-screen-xl mx-auto">
+        <div class="mt-14 p-5">
+            <h3 class="flex justify-center text-2xl font-['serif'] font-bold">You need it we’ve got it</h3>
+        </div>
+        <div class="mt-4">
+            <ul class="p-2 flex justify-evenly font-semibold">
+                <li class="p-1 border-purple-800 border-b-[3px]"><a href="#" class="text-purple-800"
+                        aria-current="page">Graphics &
+                        Design</a></li>
+                <li><a href="#" class="p-1 hover:text-gray-400">Programming & Tech</a></li>
+                <li><a href="#" class="p-1 hover:text-gray-400">Writing & Translation</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="mt-2 flex justify-center">
+                <li class="p-6 hover:bg-gray-50"><a href="#">
+                        <img src="{{ URL('assets/UIUX-elipse.png') }}" alt="UI/UX" class="w-32">
+                        <p class="pt-4 text-center font-semibold">UI/UX Design</p>
+                    </a></li>
+                <li class="p-6 hover:bg-gray-50"><a href="#">
+                        <img src="{{ URL('assets/UIUX-elipse.png') }}" alt="UI/UX" class="w-32">
+                        <p class="pt-4 text-center font-semibold">Website Design</p>
+                    </a></li>
+                <li class="p-6 hover:bg-gray-50"><a href="#">
+                        <img src="{{ URL('assets/UIUX-elipse.png') }}" alt="UI/UX" class="w-32">
+                        <p class="pt-4 text-center font-semibold">Menu Design</p>
+                    </a></li>
+                <li class="p-6 hover:bg-gray-50"><a href="#">
+                        <img src="{{ URL('assets/UIUX-elipse.png') }}" alt="UI/UX" class="w-32">
+                        <p class="pt-4 text-center font-semibold">Social media Design</p>
+                    </a></li>
+                <li class="p-6 hover:bg-gray-50"><a href="#">
+                        <img src="{{ URL('assets/UIUX-elipse.png') }}" alt="UI/UX" class="w-32">
+                        <p class="pt-4 text-center font-semibold">Presentation Design</p>
+                    </a></li>
+                <li class="p-6 hover:bg-gray-50"><a href="#">
+                        <img src="{{ URL('assets/UIUX-elipse.png') }}" alt="UI/UX" class="w-32">
+                        <p class="pt-4 text-center font-semibold">Book Cover</p>
+                    </a></li>
+        </div>
+    </div>
+
     <script type="text/javascript" src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 
