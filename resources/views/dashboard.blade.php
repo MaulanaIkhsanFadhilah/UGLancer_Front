@@ -174,6 +174,12 @@
     <div>
         <div>Suddenly it’s all so doable</div>
     </div>
+    <div class="w-full h-48 bg-purple-800">
+
+    </div>
+    <div class="w-full h-10 bg-purple-900">
+
+    </div>
 
     <script type="text/javascript" src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
